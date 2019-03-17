@@ -1,0 +1,19 @@
+<resources>
+    <string name="tytulWspAk">Współrzędne Aktualne</string>
+
+    <string name="app_name">Lokalizacja BB</string>
+    <string name="helloWorld">Aplikacja do sprawdzania aktualnej pozycji</string>
+    <string name="buttonLokalizuj">Zlokalizuj się</string>
+    <string name="szerokoscGeo">Szerokość Geograficzna</string>
+    <string name="dlugoscGeo">Długość Geograficzna</string>
+    <string name="wspolStopGeo">Współrzędne</string>
+    <string name="odswLok">Nowe Współrzędne i Odległość</string>
+    <string name="zapBtn">Zapisz aktualne Współrzędne</string>
+    <string name="tytulWspAkSav">Współrzędne Zapisane</string>
+    <string name="szerokoscGeoSav">Szerokość Zapisana</string>
+    <string name="dlugoscGeoSav">Długość Zapisana</string>
+    <string name="tytulOdl">Odległość w metrach i kilometrach</string>
+    <string name="odlStr">Tu pojawi się odległość między współrzędnymi zapisanymi i aktualnymi</string>
+    <string name="instrukcja">Pierwsze współrzędne ładują się same, można je zapisać lub wybrać nowe. Jeśli zapisane są jakieś współrzędne będzie obliczana odległość od współrzędnych aktualnych. Czasem po ponownym włączeniu Lokalizacji w telefonie trzeba kliknąć kilka razy, aż współrzędne się załadują.</string>
+
+</resources>

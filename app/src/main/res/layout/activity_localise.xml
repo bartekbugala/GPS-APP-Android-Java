@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LocaliseActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarStyle="insideOverlay">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tytulWspAk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tytulWspAk"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="94dp"
+                tools:layout_editor_absoluteY="54dp" />
+
+            <TextView
+                android:id="@+id/szerokoscGeo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/szerokoscGeo"
+                tools:layout_editor_absoluteX="94dp"
+                tools:layout_editor_absoluteY="54dp" />
+
+            <TextView
+                android:id="@+id/dlugoscGeo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dlugoscGeo"
+                tools:layout_editor_absoluteX="94dp"
+                tools:layout_editor_absoluteY="85dp" />
+
+            <TextView
+                android:id="@+id/wspolrzedneStopnie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/wspolStopGeo"
+                tools:layout_editor_absoluteX="94dp"
+                tools:layout_editor_absoluteY="54dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/odswLokBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClickLok"
+                    android:text="@string/odswLok"
+                    android:textSize="12dp" />
+
+                <Button
+                    android:id="@+id/zapWsp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClickSav"
+                    android:text="@string/zapBtn"
+                    android:textSize="12dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tytulWspAkSav"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tytulWspAkSav"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="94dp"
+                tools:layout_editor_absoluteY="54dp" />
+
+            <TextView
+                android:id="@+id/szerokoscGeoSav"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/szerokoscGeo"
+                tools:layout_editor_absoluteX="94dp"
+                tools:layout_editor_absoluteY="54dp" />
+
+            <TextView
+                android:id="@+id/dlugoscGeoSav"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dlugoscGeo"
+                tools:layout_editor_absoluteX="94dp"
+                tools:layout_editor_absoluteY="85dp" />
+
+            <TextView
+                android:id="@+id/wspolrzedneStopnieSav"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/wspolStopGeo"
+                tools:layout_editor_absoluteX="94dp"
+                tools:layout_editor_absoluteY="54dp" />
+
+            <TextView
+                android:id="@+id/tytulOdl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tytulOdl"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="94dp"
+                tools:layout_editor_absoluteY="54dp" />
+
+            <TextView
+                android:id="@+id/odleglosc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/odlStr"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/instrukcja" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
